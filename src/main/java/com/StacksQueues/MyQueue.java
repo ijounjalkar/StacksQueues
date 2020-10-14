@@ -18,8 +18,16 @@ public class MyQueue {
 		myLinkedList.append(element);
 		return true;
 	}
+	/**
+	 * UC4 Dequeue from end
+	 * @return
+	 */
+	public INode dequeue() {
+		return myLinkedList.pop();
+	}
 	public void printQueue() {
 		myLinkedList.printMyNode();
 	}
+	
 
 }
