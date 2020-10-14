@@ -21,7 +21,7 @@ public class MyQueueTest {
 		test.printQueue();
 	}
 	/**
-	 * Usecase4 Dequeue
+	 * UC4 Dequeue
 	 */
 	@Test
 	public void given_Method_Should_Remove_From_Top() {
