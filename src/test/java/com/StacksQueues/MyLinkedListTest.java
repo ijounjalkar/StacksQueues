@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class MyLinkedListTest {
 	@Test
-	public void given3NumbersWhenAddedToLinkesListShouldBeAddedToTop() {
+	public void given_3Numbers_When_Added_To_Linked_List_Should_Be_Added_To_Top() {
 		MyNode<Integer> firstElement = new MyNode<>(70);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(56);
@@ -22,7 +22,7 @@ public class MyLinkedListTest {
 	}
 
 	@Test
-	public void given3NumbersWhenAddedToLinkesListShouldBeAddedToEndd() {
+	public void given_3Numbers_When_Added_To_Linked_List_Should_Be_Added_To_End() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(70);
@@ -37,7 +37,7 @@ public class MyLinkedListTest {
 		assertEquals(true, result);
 	}		
 	@Test
-	public void given3NumbersInsertBetweenTwoNumbers() {
+	public void given_3Numbers_Insert_Between_Two_Numbers() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(70);
@@ -53,7 +53,7 @@ public class MyLinkedListTest {
 	}
 
 	@Test
-	public void methodToPopAtFirstNode() {
+	public void method_To_Pop_At_First_Node() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(70);
@@ -66,7 +66,7 @@ public class MyLinkedListTest {
 	}
 	
 	@Test
-	public void methodToPopAtLastNode() {
+	public void method_To_Pop_At_Last_Node() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(70);
@@ -79,7 +79,7 @@ public class MyLinkedListTest {
 	}
 	
 	@Test
-	public void methodToSearchLinkedListToFindNode() {
+	public void method_To_Search_Linked_List_To_Find_Node() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(70);
@@ -93,7 +93,7 @@ public class MyLinkedListTest {
 	
 
 	@Test
-	public void methodToInsertANodeAfterSearchNode() {
+	public void method_To_Insert_A_Node_After_Search_Node() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(40);
@@ -112,7 +112,7 @@ public class MyLinkedListTest {
 	}
 	
 	@Test
-	public void methodToDeletANodeAndReturnCount() {
+	public void method_To_Delete_A_Node_And_Return_Count() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(40);
@@ -129,7 +129,7 @@ public class MyLinkedListTest {
 	}
 	
 	@Test
-	public void methodToOrderLinkedList() {
+	public void method_To_Order_Linked_List() {
 		MyNode<Integer> firstElement = new MyNode<>(56);
 		MyNode<Integer> secondElement = new MyNode<>(30);
 		MyNode<Integer> thirdElement = new MyNode<>(40);
